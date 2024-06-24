@@ -12,13 +12,13 @@ const page = () => {
   return (
     <Suspense>
         <TopNews />
-        <Breakingnews />
+        {/* <Breakingnews />
         <Continents />
         <Bussiness />
         <PoliticsCultureContainer />
         <Subscribe />
         <LatestNews />
-        <Sports />
+        <Sports /> */}
     </Suspense>
   );
 };
