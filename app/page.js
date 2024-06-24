@@ -5,7 +5,7 @@ import PoliticsCultureContainer from "@/Components/Section/PoliticsCultureContai
 import Sports from "@/Components/Section/Sports";
 import Continents from "@/Components/Sections/Continents";
 import Subscribe from "@/Components/Subscribe";
-import TopNews from "@/Components/TopNews/TopNews";
+// import TopNews from "@/Components/TopNews/TopNews";
 import { Suspense } from "react";
 
 const page = () => {
