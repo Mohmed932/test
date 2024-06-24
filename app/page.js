@@ -11,14 +11,14 @@ import { Suspense } from "react";
 const page = () => {
   return (
     <Suspense>
-        <TopNews />
-        {/* <Breakingnews />
+        {/* <TopNews /> */}
+        <Breakingnews />
         <Continents />
         <Bussiness />
         <PoliticsCultureContainer />
         <Subscribe />
         <LatestNews />
-        <Sports /> */}
+        <Sports />
     </Suspense>
   );
 };
