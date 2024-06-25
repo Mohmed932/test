@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +30,42 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  /* backdrop-filter:blur(10px); */
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  background: rebeccapurple;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+input {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  behavior: smooth;
+  background-color: transparent;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 50px;
 }
